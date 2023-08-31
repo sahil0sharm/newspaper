@@ -17,18 +17,15 @@ text-align: center;
 }
 .indiahead{
     display: flex;
-gap: 35px;
+
 margin-top: 25px;
+flex-wrap: wrap;
 }
 .ambani{
-    width: 33.3%;
+    width: calc(33.3% - 20px);
+    margin: 10px;
 }
-.meet{
-    width: 33.3%;
-}
-.train{
-    width: 33.3%;
-}
+
 #india, #international, #sports, #hp{
     cursor: pointer;
 }
