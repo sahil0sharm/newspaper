@@ -66,6 +66,7 @@ color: rgb(0, 255, 136);
     .newstochoose h2{
         font-size: 18px;
         font-weight: 400;
+        gap: 20px;
     }
 
 }
