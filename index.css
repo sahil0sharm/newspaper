@@ -10,6 +10,7 @@ body{
 }
 .newspaper h1{
 text-align: center;
+color: #669d4d;
 }
 .newstochoose{
     display: flex;
@@ -66,4 +67,13 @@ color: rgb(0, 255, 136);
         font-weight: 400;
     }
 
+}
+
+.newstochoose button{
+    padding: 10px 40px;
+  font-size: 18px;
+  border: 1px solid #55c455;
+  color: white;
+  background-color: #55c455;
+  border-radius: 100px;
 }
