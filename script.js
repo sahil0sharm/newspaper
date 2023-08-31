@@ -1,3 +1,7 @@
+let filter = document.querySelectorAll(".newstochoose")
+var newshtml = "";
+var king = document.querySelector("#newshere");
+
 //on first load
 fetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=dc61cf5d1b6e4d6e9042a01d34868313")
     .then(responses => responses.json())
@@ -14,9 +18,6 @@ fetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=dc61cf5d1b6e4d6e90
         king.innerHTML = newshtml;
     })
 
-let filter = document.querySelectorAll(".newstochoose")
-var newshtml = "";
-var king = document.querySelector("#newshere");
 document.querySelector("#india").addEventListener("click", function (e) {
     fetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=dc61cf5d1b6e4d6e9042a01d34868313")
         .then(responses => responses.json())
